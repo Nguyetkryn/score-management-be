@@ -1,0 +1,61 @@
+- run project
+dotnet run
+cd D:\.net\score-management-be\score-management-be\
+
+** Note: stop website before add migration
+
+- Add Migration
+dotnet ef migrations add <TênMigration>
+
+- Áp dụng Migration vào Database
+dotnet ef database update
+
+- Xem danh sách các Migration
+dotnet ef migrations list
+
+- Xóa migration chưa được áp dụng
+dotnet ef migrations remove
+
+- Quay lại một Migration cụ thể
+dotnet ef database update <TênMigration>
+
+- Để quay lại trạng thái ban đầu (không migration nào được áp dụng)
+dotnet ef database update 0
+
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "year": "2024-2025",
+  "startDate": "09-05-2024",
+  "endDate": "05-31-2024"
+}
+
+{
+	"userName": "nguyenvana",
+	"password": "123456",
+	"email": "nguyenvana@gmail.com",
+	"fullName": "Nguyen Van A",
+	"gender": true,
+	"phoneNumber": "0987654322",
+	"address": "TP.HCM",
+	"birth": "1999-05-12T14:54:48.606Z",
+	"profileImageUrl": "string",
+	"startDate": "2025-05-12T14:54:48.606Z",
+	"endDate": "2026-05-12T14:54:48.606Z",
+	"isStatus": true,
+	"createdBy": "Admin",
+	"createdDate": "2025-05-12T14:54:48.606Z",
+	"modifiedBy": "Admin",
+	"modifiedDate": "2025-05-12T14:54:48.606Z",
+	"roleIds": [
+		"77a4bff1-0612-4fae-b6ca-e7f0fa8dac19"
+	]
+}
+
+
+- git
+git init
+git remote add origin <url>
+
+git add .
+git commit
+git push/pull
