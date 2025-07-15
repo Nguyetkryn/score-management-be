@@ -15,6 +15,11 @@ namespace score_management_be.Controllers.Admin
             _userRoleService = userRoleService;
         }
 
+        /// <summary>
+        /// Hiển thị danh sách Role của User
+        /// </summary>
+        /// <param name="userId">id của user</param>
+        /// <returns></returns>
         [HttpGet("get-roles-by-user/userId-{userId}")]
         public async Task<ActionResult<IEnumerable<UserRoleDto>>> GetRolesByUser(Guid userId)
         {
@@ -26,6 +31,11 @@ namespace score_management_be.Controllers.Admin
             return Ok(roleList);
         }
 
+        /// <summary>
+        /// Hiển thị danh sách User của Role
+        /// </summary>
+        /// <param name="roleId">id của role</param>
+        /// <returns></returns>
         [HttpGet("get-users-by-role/roleId-{roleId}")]
         public async Task<ActionResult<IEnumerable<UserRoleDto>>> GetUsersByRoleId (Guid roleId)
         {

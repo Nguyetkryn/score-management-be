@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>score-management-be</name>
+    </assembly>
+    <members>
+        <member name="M:score_management_be.Controllers.Admin.RoleController.GetRoles(System.Int32,System.Int32)">
+            <summary>
+            Lấy danh sách Role được phân trang, dùng trong hiển thị Role Management feature
+            </summary>
+            <remarks>
+            Dùng trong màn Role Management, có phân trang theo pageNumber và pageSize.
+            </remarks>
+            <returns>Danh sách Role được phân trang.</returns>
+        </member>
+        <member name="M:score_management_be.Controllers.Admin.UserRoleController.GetRolesByUser(System.Guid)">
+            <summary>
+            Hiển thị danh sách Role của User
+            </summary>
+            <param name="userId">id của user</param>
+            <returns></returns>
+        </member>
+        <member name="M:score_management_be.Controllers.Admin.UserRoleController.GetUsersByRoleId(System.Guid)">
+            <summary>
+            Hiển thị danh sách User của Role
+            </summary>
+            <param name="roleId">id của role</param>
+            <returns></returns>
+        </member>
+        <member name="T:score_management_be.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:score_management_be.Migrations.addnullforfields">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.addnullforfields.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.addnullforfields.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.addnullforfields.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:score_management_be.Migrations.DateForModels">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.DateForModels.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.DateForModels.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.DateForModels.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:score_management_be.Migrations.DateConvertString">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.DateConvertString.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.DateConvertString.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.DateConvertString.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:score_management_be.Migrations.RemoveNoteInTheConductEntity">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.RemoveNoteInTheConductEntity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.RemoveNoteInTheConductEntity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.RemoveNoteInTheConductEntity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:score_management_be.Migrations.UpdateRelationshipUserStudentTeacher">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.UpdateRelationshipUserStudentTeacher.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.UpdateRelationshipUserStudentTeacher.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:score_management_be.Migrations.UpdateRelationshipUserStudentTeacher.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

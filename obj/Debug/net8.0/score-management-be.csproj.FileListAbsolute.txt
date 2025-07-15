@@ -134,3 +134,6 @@ D:\.net\score-management-be\score-management-be\obj\Debug\net8.0\refint\score-ma
 D:\.net\score-management-be\score-management-be\obj\Debug\net8.0\score-management-be.pdb
 D:\.net\score-management-be\score-management-be\obj\Debug\net8.0\score-management-be.genruntimeconfig.cache
 D:\.net\score-management-be\score-management-be\obj\Debug\net8.0\ref\score-management-be.dll
+D:\.net\score-management-be\score-management-be\obj\Debug\net8.0\score-management-be.sourcelink.json
+D:\.net\score-management-be\score-management-be\bin\Debug\net8.0\score-management-be.xml
+D:\.net\score-management-be\score-management-be\obj\Debug\net8.0\score-management-be.xml

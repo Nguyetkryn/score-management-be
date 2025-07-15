@@ -14,8 +14,15 @@ namespace score_management_be.Controllers.Admin
             _roleService = roleService;
         }
 
+        /// <summary>
+        /// Lấy danh sách Role được phân trang, dùng trong hiển thị Role Management feature
+        /// </summary>
+        /// <remarks>
+        /// Dùng trong màn Role Management, có phân trang theo pageNumber và pageSize.
+        /// </remarks>
+        /// <returns>Danh sách Role được phân trang.</returns>
         [HttpGet("get-all-roles")]
-        public async Task<ActionResult<IEnumerable<RoleDto>>> GetRoles([FromQuery] int pageNumber, [FromQuery] int pageSize)
+        public async Task<ActionResult<IEnumerable<RoleDto>>> GetRoles([FromQuery] int pageNumber=1, [FromQuery] int pageSize=10)
         {
             var roles = await _roleService.GetAllRoleAsync(pageNumber, pageSize);
             return Ok(roles);
